@@ -1,0 +1,1 @@
+cordova plugin add plugin.google.maps --variable API_KEY_FOR_ANDROID="{android-client-secret}" --variable API_KEY_FOR_IOS="{ios-client-secret}"

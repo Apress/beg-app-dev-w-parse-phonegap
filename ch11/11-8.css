@@ -1,0 +1,6 @@
+.uploading {
+    background:transparent url(../img/ajax-loader.gif) no-repeat center;
+}
+.uploading * {
+    opacity: 0.5;
+}

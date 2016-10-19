@@ -1,0 +1,1 @@
+var map, Message, message_ids = [], loading = false;

@@ -1,0 +1,1 @@
+phonegap plugin add {/path-to-phonegap-facebook-plugin} --variable APP_ID={your-facebook-app-id} --variable APP_NAME={DisplayName}

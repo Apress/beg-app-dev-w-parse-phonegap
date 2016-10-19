@@ -1,0 +1,6 @@
+<script>
+var config = {
+view: 'logout'
+};
+app.initialize();
+</script>

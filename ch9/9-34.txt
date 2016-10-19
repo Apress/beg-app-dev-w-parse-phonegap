@@ -1,0 +1,1 @@
+http://api.tiles.mapbox.com/v4/geocode/{index}/{longitude},{latitude}.json?access_token={access-token}

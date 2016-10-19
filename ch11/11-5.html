@@ -1,0 +1,12 @@
+<input type="file" id="fileUpload">
+<a href="#" onclick="doUpload(); return false">Upload</a>
+<script>
+    function doUpload() {
+        var fileUploadControl = $("#fileUpload")[0];
+        if (fileUploadControl.files.length > 0) {
+            var file = fileUploadControl.files[0];
+            var name = "filename.ext";
+            var parseFile = new Parse.File(name, file);
+        }
+    }
+</script>

@@ -1,0 +1,18 @@
+<script id="conversation-template" type="text/x-handlebars-template">
+    <div id="messages">
+        {{#if messages}}
+        {{#each messages}}
+        <div class="clearfix">
+            <div style="width: 80%" class="alert well-sm {{ getCssClass }}">
+                {{ attributes.message_body }}
+                <div class="small">
+                    {{ getFromNow }}
+                </div>
+            </div>
+        </div>
+        {{/each}}
+        {{else}}
+        <div class="well">Write a message!</div>
+        {{/if}}
+    </div>
+</script>

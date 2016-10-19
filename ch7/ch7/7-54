@@ -1,0 +1,8 @@
+<script>
+    var config = {
+        view: "contacts",
+        title: "Contacts",
+        public_access: false
+    };
+    app.initialize();
+</script>

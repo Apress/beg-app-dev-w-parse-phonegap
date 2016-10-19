@@ -1,0 +1,6 @@
+updateUserData: function(User) {
+    if (User.existed()) {
+        window.location.href = 'logout.html';
+        return;
+    }
+}

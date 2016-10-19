@@ -1,0 +1,1 @@
+cordova plugin add https://github.com/christocracy/cordova-plugin-background-geolocation.git

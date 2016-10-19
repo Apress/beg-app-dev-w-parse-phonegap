@@ -1,0 +1,1 @@
+L.control.fullscreen().addTo(map);

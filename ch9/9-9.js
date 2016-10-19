@@ -1,0 +1,1 @@
+// Get a valuevar foo = localStorage.getItem("bar");// Set a valuelocalStorage.setItem("bar", foo);

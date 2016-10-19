@@ -1,0 +1,1 @@
+phonegap create ./mySocialApp-path/ com.apress.mySocialApp MySocialApp

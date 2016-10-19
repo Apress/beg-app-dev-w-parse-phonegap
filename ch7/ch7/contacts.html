@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Contacts</title>
+</head>
+<body>
+
+
+<div id="offline-message" class="alert alert-danger" role="alert">
+    <strong>Offline</strong><br>
+    You cannot send messages at the moment.
+</div>
+<div class="modal-backdrop fade in"></div>
+
+<div id="online-message" class="alert alert-success" role="alert">
+    <strong>Online</strong><br>
+    You are back online!
+</div>
+
+<div class="container">
+
+
+    <form role="form">
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-addon"><i class="glyphicon glyphicon-search"></i></div>
+                <input type="search" name="search" class="form-control" placeholder="Search">
+            </div>
+        </div>
+    </form>
+    <div class="placeholder"></div>
+
+
+</div>
+
+
+<script id="contacts-template" type="text/x-handlebars-template">
+    <table class="table table-striped">
+        {{#each users}}
+        <tr>
+            <td>
+                <a href="conversation.html?id={{ id }}">
+                    <img src="{{ getPicture }}" class="img-circle pull-left">
+                </a>
+            </td>
+            <td class="small" style="vertical-align: middle">
+                <a href="conversation.html?id={{ id }}">
+                    {{attributes.username}}
+                </a>
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+</script>
+
+
+<script src="cordova.js"></script>
+<script src="js/vendor/LAB.js"></script>
+<script src="js/app.js"></script>
+<script src="js/core.js"></script>
+
+<script>
+    var config = {
+        view: "contacts",
+        title: "Contacts",
+        public_access: false
+    };
+    app.initialize();
+</script>
+</body>
+</html>

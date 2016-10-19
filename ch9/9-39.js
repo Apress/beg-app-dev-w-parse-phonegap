@@ -1,0 +1,1 @@
+Parse.Cloud.run('MessageAddLocationName', {     id: Message.id}).then(function() {  // Refresh Messages});

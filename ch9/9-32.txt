@@ -1,0 +1,1 @@
+http://api.tiles.mapbox.com/v4/geocode/mapbox.places-city-v1/New+York+City.json?access_token={access-token}

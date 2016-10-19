@@ -1,0 +1,20 @@
+window.MyParseUser = Parse.User.extend({
+    // Instance Methods ...
+}, { 
+    // Class properties
+    trackOnlineStatus: function() { 
+        MyParseUser.setOnline();
+    }, 
+    setOnline: function() {
+        var User = MyParseUser.current();
+        User.set('online', true);
+        User.set('last_seen', new Date());
+        User.save();
+    },
+    setOffline: function() {
+        var User = MyParseUser.current();
+        User.set('online', false);
+        User.set('last_seen', new Date());
+        User.save();
+    }
+});

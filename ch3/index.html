@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <title>My ParseApp site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0;
+        }
+        ul li:nth-child(2n) {
+            background: #f9f9f9;
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            padding: 10px;
+        }
+        section.form-container {
+            position: absolute;
+            bottom: 0;
+            background-color: #F7F7F7;
+            border-top: 1px solid #000;
+            width: 100%;
+            height: 40%;
+        }
+        section {
+            position: absolute;
+            height: 60%;
+            overflow: scroll;
+            width: 100%;
+        }
+        form {
+            margin: 3%;
+        }
+        textarea {
+            margin-bottom: 2%;
+            width: 50%;
+            display: block;
+        }
+        .msg-processing {
+            color: #ccc;
+        }
+        #btn-delete,
+        .msg-warn {
+            color: red;
+        }
+        button {
+            padding: 2%;
+        }
+        #btn-update {
+            color: green;
+        }
+        .hide {
+            display: none;
+        }
+        .show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <ul class="record-list"></ul>
+</section>
+
+<section class="form-container">
+    <form>
+        <textarea id="test-input" placeholder="Create a new record!"></textarea>
+        <button id="btn-add">Create</button>
+        <div id="edit-panel" class="hide">
+            <button id="btn-update">Update</button>
+            <button id="btn-delete">Delete</button>
+            <button id="btn-cancel">Cancel</button>
+        </div>
+    </form>
+</section>
+
+<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

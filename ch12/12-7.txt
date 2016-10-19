@@ -1,0 +1,10 @@
+<div id="offline-message" class="alert alert-danger" role="alert">
+    <strong>Offline</strong><br>
+    You cannot send messages at the moment.
+</div>
+<div class="modal-backdrop fade in"></div>
+
+<div id="online-message" class="alert alert-success" role="alert">
+    <strong>Online</strong><br>
+    You are back online!
+</div>

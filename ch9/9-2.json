@@ -1,0 +1,12 @@
+{
+  "timestamp": 1234567895231,
+  "coords": {
+    "speed": null,
+    "heading": null,
+    "altitudeAccuracy": null,
+    "accuracy": 54,
+    "altitude": null,
+    "longitude": -73.863131,
+    "latitude": 41.756271
+  }
+}

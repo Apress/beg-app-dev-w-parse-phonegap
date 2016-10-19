@@ -1,0 +1,12 @@
+{
+  "email": "name@domain.com",
+  "first_name": "Stephan",
+  "last_name": "Alber",
+  "picture": {
+    "data": {
+      "is_silhouette": false,
+      "url": "https://fbcdn-profile-a.akamaihd.net/..."
+    }
+  },
+  "id": "123456789"
+}

@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "permission": "public_profile",
+      "status": "granted"
+    },
+    {
+      "permission": "manage_pages",
+      "status": "granted"
+    },
+    {
+      "permission": "user_photos",
+      "status": "granted"
+    }
+  ]
+}

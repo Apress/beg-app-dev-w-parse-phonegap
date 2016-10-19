@@ -1,0 +1,6 @@
+<script>
+var config = {
+view: 'registration'
+};
+app.initialize();
+</script>

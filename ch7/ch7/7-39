@@ -1,0 +1,5 @@
+<p>
+    <a href="#" class="btn btn-lg btn-primary btn-block" id="facebook-login">
+    <i class="glyphicon glyphicon-new-window pull-right"></i>
+    Log in with Facebook</a>
+</p>

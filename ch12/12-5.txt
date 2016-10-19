@@ -1,0 +1,16 @@
+<td class="small" style="vertical-align: middle">
+    <a href="conversation.html?id={{ id }}">
+        {{attributes.first_name}} 
+        {{attributes.last_name}} 
+    </a>
+    <div>{{ lastSeenText }}</div>
+</td>
+<td>
+    <a href="conversation.html?id={{ id }}">
+      {{#if isOnline }}
+        <i class="alert alert-success glyphicon glyphicon-stop"></i>
+      {{ else }}
+        <i class="alert alert-danger glyphicon glyphicon-stop"></i>
+      {{/if}}
+    </a>
+</td> 

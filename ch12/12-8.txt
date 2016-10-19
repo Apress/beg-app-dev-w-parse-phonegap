@@ -1,0 +1,13 @@
+// Online
+document.addEventListener("online", function() {
+    MyParseUser.setOnline();
+    $('#offline-message').fadeOut();
+    $('#online-message').fadeIn();
+    window.setTimeout(function() {
+        $('#online-message, .modal-backdrop').fadeOut();
+    }, 1000);
+}, false);
+// Offline	
+document.addEventListener("offline", function() {
+    $('#offline-message, .modal-backdrop').fadeIn();
+}, false);

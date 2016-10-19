@@ -1,0 +1,2 @@
+phonegap -d plugin add https://github.com/Wizcorp/phonegap-facebook-plugin.git --variable
+APP_ID="{facebook-app-id}" --variable APP_NAME="{facebook-display-name}"

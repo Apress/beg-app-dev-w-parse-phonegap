@@ -1,0 +1,7 @@
+.loading {
+    background:transparent url(../img/ajax-loader.gif) no-repeat center;
+    padding:50px;
+}
+.loading * {
+    display:none;
+}

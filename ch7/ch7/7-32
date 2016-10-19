@@ -1,0 +1,7 @@
+<script>
+var config = {
+view: 'reset',
+public_access: true
+};
+app.initialize();
+</script>

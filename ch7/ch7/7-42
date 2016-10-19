@@ -1,0 +1,9 @@
+{
+  "authResponse": {
+    "accessToken": "{accessToken}",
+    "userID": "10152483215327935",
+    "expiresIn": 4163,
+    "signedRequest": "{signedRequest}"
+  },
+  "status": "connected"
+}

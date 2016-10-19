@@ -1,0 +1,2 @@
+phonegap platform add ios
+phonegap platform add android

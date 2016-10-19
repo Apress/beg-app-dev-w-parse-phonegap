@@ -1,0 +1,5 @@
+{
+  enableHighAccuracy: true, // enabled
+  timeout: 10000, // 10 seconds
+  maximumAge: 300000 // 5 minutes
+}

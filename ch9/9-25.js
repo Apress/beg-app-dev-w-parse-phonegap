@@ -1,0 +1,1 @@
+Parse.Cloud.afterSave("Message", function(request) {  // Code executed after saving the Message object});

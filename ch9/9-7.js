@@ -1,0 +1,1 @@
+Message.set('location', point);Message.save();

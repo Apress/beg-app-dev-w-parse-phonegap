@@ -1,0 +1,4 @@
+<script src="framework.js"></script>
+<script src="plugin.framework.js"></script>
+<script src="myplugin.framework.js"></script>
+<script src="init.js"></script>

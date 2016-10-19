@@ -1,0 +1,8 @@
+app.core = {
+    //...
+    accessControl: function() {
+        // ...
+        // Update User Status
+        MyParseUser.trackOnlineStatus();
+    }
+};
